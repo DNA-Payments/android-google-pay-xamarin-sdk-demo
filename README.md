@@ -1,11 +1,12 @@
 # Google Pay Integration Example
 
-This repository contains an example implementation of integrating Google Pay into an Xamarin application using the DNA Payments SDK. This example demonstrates how to:
+This repository contains an example implementation of integrating Google Pay using the DNA Payments SDK. The app is written in kotlin for demonstration purposes, feel free to adapt it for use in your Xamarin project. This example showcases how to:
 
 - Initialize the payment context using `DNAPaymentsGooglePaySdk.init()`.
 - Verify if Google Pay is available using `DNAPaymentsGooglePaySdk.isPaymentPossible()`.
 - Execute a payment transaction using `DNAPaymentsGooglePaySdk.executeTransaction()`.
 
+Please use this example 
 ## Features
 
 - **Environment Support**: Supports both TEST and PRODUCTION environments.
@@ -13,7 +14,7 @@ This repository contains an example implementation of integrating Google Pay int
 - **Customizable Payment Request**: Allows configuration of payment details, customer information, and order details.
 - **Error Handling**: Includes basic error handling for common exceptions.
 
-## DNA Payments SDK
+## DNA Payments SDK (this version of SDK is modified to be used in Xamarin project)
 
 - DNA Payments SDK `dnasdk-release-xamarin-2.0.0-10.aar` file, please find under the `libs` folder in the demo project.
 
